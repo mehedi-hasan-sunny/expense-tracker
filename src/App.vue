@@ -47,7 +47,7 @@
   import Storage from './services/storage';
   const storage = new Storage();
 
-  // import Menu from './components/Menu/Menu';
+   import Menu from './components/Menu/Menu';
   // import Notifications from './components/Menu/Notifications';
   // import Settings from './components/Menu/Settings';
 
@@ -58,7 +58,7 @@
       source: String
     },
     components: {
-      // Menu,
+       Menu,
       // Notifications,
       // Settings
     },
