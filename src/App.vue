@@ -48,7 +48,7 @@
   const storage = new Storage();
 
    import Menu from './components/Menu/Menu';
-  // import Notifications from './components/Menu/Notifications';
+  import Notifications from './components/Menu/Notifications';
   // import Settings from './components/Menu/Settings';
 
   var count = 0;
@@ -58,8 +58,8 @@
       source: String
     },
     components: {
-       Menu,
-      // Notifications,
+      Menu,
+      Notifications,
       // Settings
     },
     data() {
